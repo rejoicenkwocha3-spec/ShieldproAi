@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Mail, Building, ArrowRight, CheckCircle } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -31,7 +31,7 @@ export default function ContactPage() {
             Get in Touch with Shield Pro AI
           </h1>
           <p className="font-inter text-[#929292] text-xl leading-relaxed max-w-2xl mx-auto">
-            Request a demo, ask about enterprise plans or tell us about your security environment.
+            Ask about plans, product questions or tell us about your security environment.
           </p>
         </div>
       </section>
@@ -45,26 +45,6 @@ export default function ContactPage() {
               <p className="font-inter text-[#929292] text-base leading-relaxed mb-8">
                 Whether you are evaluating Shield Pro AI, planning an enterprise deployment or have a specific security question, our team is here to help.
               </p>
-              <div className="space-y-5">
-                <div className="flex items-start gap-4 p-5 rounded-xl border border-[#292929] bg-[#111111]">
-                  <div className="w-10 h-10 bg-[#D7FF00]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail size={18} className="text-[#D7FF00]" />
-                  </div>
-                  <div>
-                    <p className="font-sora font-semibold text-white text-sm mb-1">General Enquiries</p>
-                    <p className="font-inter text-[#929292] text-sm">hello@shieldproai.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4 p-5 rounded-xl border border-[#292929] bg-[#111111]">
-                  <div className="w-10 h-10 bg-[#00E5FF]/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Building size={18} className="text-[#00E5FF]" />
-                  </div>
-                  <div>
-                    <p className="font-sora font-semibold text-white text-sm mb-1">Enterprise Sales</p>
-                    <p className="font-inter text-[#929292] text-sm">enterprise@shieldproai.com</p>
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* Form */}
@@ -123,7 +103,7 @@ export default function ContactPage() {
                       className="w-full bg-[#050505] border border-[#292929] rounded-lg px-4 py-3 text-white text-sm font-inter focus:outline-none focus:border-[#D7FF00]/50"
                     >
                       <option value="general">General Enquiry</option>
-                      <option value="demo">Request a Demo</option>
+                      <option value="demo">Product Demo</option>
                       <option value="enterprise">Enterprise Plan</option>
                       <option value="support">Technical Support</option>
                       <option value="partnership">Partnership</option>

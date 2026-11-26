@@ -42,9 +42,6 @@ export default function Navbar() {
             <Link href="/login" className="text-[#929292] hover:text-white text-sm font-inter transition-colors px-4 py-2">
               Login
             </Link>
-            <Link href="/contact" className="text-[#929292] hover:text-white text-sm font-inter border border-[#292929] hover:border-[#D7FF00]/40 px-4 py-2 rounded-lg transition-colors">
-              Request a Demo
-            </Link>
             <Link
               href="/signup"
               className="bg-[#D7FF00] text-black font-sora font-semibold text-sm px-5 py-2 rounded-lg hover:bg-[#c8f000] transition-colors"
@@ -80,9 +77,6 @@ export default function Navbar() {
           <div className="pt-4 border-t border-[#292929] flex flex-col gap-3">
             <Link href="/login" className="text-[#929292] hover:text-white font-inter py-2 transition-colors" onClick={() => setOpen(false)}>
               Login
-            </Link>
-            <Link href="/contact" className="border border-[#292929] text-white font-inter px-4 py-3 rounded-lg text-center" onClick={() => setOpen(false)}>
-              Request a Demo
             </Link>
             <Link href="/signup" className="bg-[#D7FF00] text-black font-sora font-semibold px-4 py-3 rounded-lg text-center" onClick={() => setOpen(false)}>
               Get Started

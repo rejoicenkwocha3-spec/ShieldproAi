@@ -162,10 +162,10 @@ export default function SolutionsPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-sora font-bold text-4xl text-white mb-6">Not Sure Where to Start?</h2>
           <p className="font-inter text-[#929292] text-lg mb-8">
-            Request a demo and our team will help identify the right approach for your organization.
+            Create an account to see how Shield Pro AI fits your organization.
           </p>
-          <Link href="/contact" className="inline-flex items-center gap-2 bg-[#D7FF00] text-black font-sora font-semibold px-8 py-4 rounded-lg hover:bg-[#c8f000] transition-colors">
-            Request a Demo <ArrowRight size={18} />
+          <Link href="/signup" className="inline-flex items-center gap-2 bg-[#D7FF00] text-black font-sora font-semibold px-8 py-4 rounded-lg hover:bg-[#c8f000] transition-colors">
+            Get Started <ArrowRight size={18} />
           </Link>
         </div>
       </section>

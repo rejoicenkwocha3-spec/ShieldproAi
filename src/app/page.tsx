@@ -143,16 +143,16 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/platform"
+                href="/signup"
                 className="bg-[#D7FF00] text-black font-sora font-semibold px-8 py-4 rounded-lg hover:bg-[#c8f000] transition-colors inline-flex items-center justify-center gap-2"
               >
-                Explore the Platform <ArrowRight size={18} />
+                Get Started <ArrowRight size={18} />
               </Link>
               <Link
-                href="/contact"
+                href="/login"
                 className="border border-[#292929] text-white font-sora font-semibold px-8 py-4 rounded-lg hover:border-[#D7FF00]/40 transition-colors text-center"
               >
-                Request a Demo
+                Sign In
               </Link>
             </div>
           </div>
@@ -429,8 +429,8 @@ export default function HomePage() {
             <Link href="/signup" className="bg-[#D7FF00] text-black font-sora font-semibold px-8 py-4 rounded-lg hover:bg-[#c8f000] transition-colors inline-flex items-center justify-center gap-2">
               Get Started <ArrowRight size={18} />
             </Link>
-            <Link href="/contact" className="border border-[#292929] text-white font-sora font-semibold px-8 py-4 rounded-lg hover:border-[#D7FF00]/40 transition-colors text-center">
-              Request a Demo
+            <Link href="/login" className="border border-[#292929] text-white font-sora font-semibold px-8 py-4 rounded-lg hover:border-[#D7FF00]/40 transition-colors text-center">
+              Sign In
             </Link>
           </div>
         </div>

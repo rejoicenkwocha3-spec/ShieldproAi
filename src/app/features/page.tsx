@@ -143,14 +143,14 @@ export default function FeaturesPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-sora font-bold text-4xl text-white mb-6">See Every Feature in Action</h2>
           <p className="font-inter text-[#929292] text-lg mb-8">
-            Request a demo and explore how Shield Pro AI works inside a live security environment.
+            Get started and explore how Shield Pro AI works inside a live security environment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/signup" className="bg-[#D7FF00] text-black font-sora font-semibold px-8 py-4 rounded-lg hover:bg-[#c8f000] transition-colors inline-flex items-center justify-center gap-2">
               Start for Free <ArrowRight size={18} />
             </Link>
-            <Link href="/contact" className="border border-[#292929] text-white font-sora font-semibold px-8 py-4 rounded-lg hover:border-[#D7FF00]/40 transition-colors text-center">
-              Request a Demo
+            <Link href="/login" className="border border-[#292929] text-white font-sora font-semibold px-8 py-4 rounded-lg hover:border-[#D7FF00]/40 transition-colors text-center">
+              Sign In
             </Link>
           </div>
         </div>
